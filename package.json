@@ -1,0 +1,19 @@
+{
+  "name": "word_wrap",
+  "version": "1.0.0",
+  "description": "word wrap interview question, goal is to recreate word wrap in node from a spec (http://php.net/manual/en/function.wordwrap.php)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammarv23/wordWrap.git"
+  },
+  "author": "Ammar Vahanvaty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammarv23/wordWrap/issues"
+  },
+  "homepage": "https://github.com/ammarv23/wordWrap#readme"
+}
