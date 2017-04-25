@@ -12,10 +12,11 @@ const wordWrap = require('./lib/word_wrap').wordWrap;
 //Insert string from file and value from command line
 const stringFile = process.argv[2];
 const value = process.argv[3];
+const breakString = process.argv[4];
 
 const stringContents = fs.readFileSync(`${__dirname}/${stringFile}`, 'utf8');
 
-wordWrap(stringContents, value);
+wordWrap(stringContents, value, breakString);
 
 
 
