@@ -16,3 +16,5 @@ Commit messages will outline my thought processes on each implementation and ite
 |------|------------------|
 |initial setup | 2:05 |
 | readme outline | 4:06 |
+|naive implementation| 28.07 |
+| breakchar | 1.10 |

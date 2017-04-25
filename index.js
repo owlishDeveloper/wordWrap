@@ -16,7 +16,7 @@ const breakString = process.argv[4];
 
 const stringContents = fs.readFileSync(`${__dirname}/${stringFile}`, 'utf8');
 
-wordWrap(stringContents, value, breakString);
+wordWrap(stringContents, value, '\n');
 
 
 
